@@ -9,7 +9,17 @@ body {
 }
 
 .menu-grid-row{
-    margin: 40px 30px 40px 30px;
+    margin: 20px 20px;
+}
+
+.menu-item{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-item-description{
+    font-size: 14px;
+    font-weight: 350;
 }
 
 .margin-bottom{
@@ -29,14 +39,26 @@ body {
 }
 
 .btn-bg{
+    color: #ad0b5b;
+    font-size: 12px;
     background-color: #ffd9ec;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .btn-bg:hover{
     color: #ffd9ec;
-    background-color: #ed7a72;
+    background-color: #ad0b5b;
 }
 
 .logo-padding-top{
     padding-top: 50px;
+}
+
+.cursive-font{
+    font-family: 'Malibu', sans-serif;
+    font-size: 23px;
+}
+
+.menu-item-desc-margin-bottom{
+    margin-bottom: 6px;
 }
